@@ -1,0 +1,51 @@
+.container1 
+{
+    border:1px solid black;
+    margin:0 auto;
+    width: 75%;
+    text-align: center;
+}
+.flex-box-row3 , .flex-box-row2
+{
+    border:1px solid black;
+    margin:0 auto;
+    text-align: center;
+}
+.flex-box-row3 , #bjResult ,.flex-box-row1
+{
+    display:flex;
+    border: 1px solid black;
+    padding:10px;
+    justify-content: space-around;
+}
+table th,td
+{
+    border: 1px solid black;
+    padding: 10px;
+}
+.yourBox , .dealerBox
+{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.flex-box-row1 div
+{
+    flex:1;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    height: 350px;
+
+}
+
+.BJBackground
+{
+    background: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex-box-row1 img{
+    width: 25%;
+    padding: 5px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
+  <title>Bootstrap</title>
+</head>
+<body>
+    <div class="container1">
+        <h1>Blackjack</h1>
+        <div class="flex-box-bj">
+            <h3><span id="bjResult">Let's Play</span></h3>
+    
+            <div class="BJBackground">
+                <div class="flex-box-row1">
+                    <div id="yourBox">
+                        <h1 class="text-light">YOU:<span id="yourScore">0</span></h1>
+                    </div>
+                    <div id="dealerBox">
+                        <h1 class="text-light">DEALER:<span id="dealerScore">0</span></h1>
+                    </div>
+                </div>
+                <div class="flex-box-row2">
+                    <button id="hit" class="btn btn-primary  ml-2 mt-2 mb-2">Hit</button>
+                    <button id="stand" class="btn btn-warning ml-2 mt-2 mb-2">Stand</button>
+                    <button id="deal" class="btn btn-danger  ml-2 mt-2 mb-2">Deal</button>
+                </div>
+            </div>
+            
+            <div class="flex-box-row3">
+                <table>
+                    <tr>
+                        <th>Win</th>
+                        <th>Loose</th>
+                        <th>Tie</th>
+                    </tr>
+                    <tr>
+                        <td><span id="win">0</span></td>
+                        <td><span id="loose">0</span></td>
+                        <td><span id="tie">0</span></td>
+                    </tr>
+                </table>
+            </div>
+    
+        </div>
+    </div>
+<script src="static/js/index.js"></script>
+<script src="static/js/jquery.slim.min.js"></script>
+<script src="static/js/popper.min.js"></script>
+<script src="static/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
