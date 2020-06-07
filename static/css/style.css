@@ -21,7 +21,7 @@
 table th,td
 {
     border: 1px solid black;
-    padding: 10px;
+    padding: 5px;
 }
 .yourBox , .dealerBox
 {
@@ -35,7 +35,7 @@ table th,td
     border: 1px solid black;
     padding: 10px;
     text-align: center;
-    height: 350px;
+    height: 400px;
 
 }
 
@@ -46,6 +46,12 @@ table th,td
     background-size: cover;
 }
 .flex-box-row1 img{
-    width: 25%;
+    width: 20%;
+    height: 40%;
     padding: 5px;
+}
+.yourBox
+{
+    display:flex;
+    flex-wrap: wrap;
 }
