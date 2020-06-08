@@ -1,4 +1,4 @@
-.container1 
+.container
 {
     border:1px solid black;
     margin:0 auto;
@@ -27,27 +27,31 @@ table th,td
 {
     border: 1px solid black;
     padding: 10px;
-
+    width:100%;
 }
 .flex-box-row1 div
 {
-    flex:1;
+    width: 50%;
     border: 1px solid black;
     padding: 10px;
     text-align: center;
     height: 400px;
-
+   
 }
-
+.flex-box-row1
+{
+    width: 100%;
+}
 .BJBackground
 {
     background: url('images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 .flex-box-row1 img{
-    width: 20%;
-    height: 40%;
+    width: 25%;
+    height:0 auto;
     padding: 5px;
 }
 .yourBox

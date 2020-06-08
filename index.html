@@ -10,11 +10,10 @@
   <title>Bootstrap</title>
 </head>
 <body>
-    <div class="container1">
+    <div class="container">
         <h1>Blackjack</h1>
-        <div class="flex-box-bj">
-            <h2><strong><span id="bjResult">Let's Play</span></strong></h2>
-    
+        <h2><strong><span id="bjResult">Let's Play</span></strong></h2>
+        <div class="d-flex justify-content-around" id="flex-box-bj">
             <div class="BJBackground">
                 <div class="flex-box-row1">
                     <div id="yourBox">
@@ -30,7 +29,8 @@
                     <button id="deal" class="btn btn-danger  ml-2 mt-2 mb-2">Deal</button>
                 </div>
             </div>
-            
+        </div>
+        <div class="d-flex justify-content-around" id="flex-box-bj1"></div>
             <div class="flex-box-row3">
                 <table>
                     <tr>
@@ -45,8 +45,8 @@
                     </tr>
                 </table>
             </div>
-    
         </div>
+        
     </div>
 <script src="static/js/index.js"></script>
 <script src="static/js/jquery.slim.min.js"></script>
